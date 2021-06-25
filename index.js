@@ -37,7 +37,6 @@ var global = {
 
         var timer2 = setInterval(function() {
           sheepObj.disLeft -= sheepObj.speed;
-          console.log(sheepObj.disLeft);
           if (sheepObj.disLeft <= -sheepObj.sheepWidth) {
             clearInterval(timer);
             clearInterval(timer2);
